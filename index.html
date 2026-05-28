@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joachim C. Cagas | Portfolio ⌘</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER & NAVIGATION (MINIMALIST LOGO) ==================== -->
+    <nav class="navbar">
+        <div class="logo">⌘ JCC.DEV</div>
+        <div class="nav-links">
+            <a href="#hero">⌘ Home</a>
+            <a href="#work">⌘ Work</a>
+            <a href="#skills">⌘ Skills</a>
+            <a href="#about">⌘ About</a>
+            <a href="#contact">⌘ Contact</a>
+        </div>
+    </nav>
+
+    <!-- ==================== 1. HERO SECTION (WITH PROFILE PICTURE) ==================== -->
+    <header id="hero" class="hero-section">
+        <div class="hero-container">
+            
+            <!-- NEW: PROFILE PICTURE COMPONENT -->
+            <div class="profile-frame">
+                <img src="me.jpg" alt="Joachim C. Cagas" class="profile-pic" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="profile-fallback" style="display:none;">👨‍💻</div>
+            </div>
+
+            <div class="project-badge">MY FIRST TRY OF MAKING PORTFOLIO</div>
+            <h1>Joachim C. Cagas</h1>
+            <p class="hero-subtitle">Aspiring Programmer & Future Tech Entrepreneur</p>
+            <p class="hero-proposition">
+                This code demonstrates my evolving practice in HTML and UI design. I am dedicating myself to mastering these foundational tools so that one day, I can build, scale, and pioneer my own global digital business ventures.
+            </p>
+            <div class="hero-buttons">
+                <a href="#work" class="btn btn-gold">⌘ View My Progress</a>
+                <a href="#contact" class="btn btn-outline">⌘ Get In Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== 2 & 3. SELECTED WORK & CASE STUDY ==================== -->
+    <section id="work" class="section">
+        <h2 class="section-title">⌘ Selected Work & Case Study</h2>
+        
+        <div class="project-showcase">
+            <div class="project-image-box">
+                <img src="portfolio.jpg" alt="Joachim Esports Preview" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div class="img-fallback">🎮 JOACHIM ESPORTS PREVIEW</div>
+            </div>
+
+            <div class="project-info-box">
+                <h3>JOACHIM ESPORTS PLATFORM</h3>
+                <p class="project-tagline">A functional design layout built for competitive gaming communities.</p>
+                
+                <div class="project-links">
+                    <a href="https://github.io" target="_blank" class="link-btn gold-link">⌘ Live Deployment Link</a>
+                    <a href="https://github.com" target="_blank" class="link-btn outline-link">⌘ Source Code Link</a>
+                </div>
+
+                <div class="case-study-vault">
+                    <div class="case-node">
+                        <h4>⌘ The Objective</h4>
+                        <p>To solve the challenge of fragmented community hubs by engineering a centralized, highly accessible interface where competitive gamers can monitor team commits, track match brackets, and interact cleanly without excessive interface noise.</p>
+                    </div>
+
+                    <div class="case-node">
+                        <h4>⌘ The Architecture</h4>
+                        <p>I chose a responsive semantic HTML5 architecture paired with systematic CSS styling. This paradigm enforces semantic readability for engines while implementing strict structural alignment to maximize interface scannability.</p>
+                    </div>
+
+                    <div class="case-node">
+                        <h4>⌘ Technical Challenges</h4>
+                        <p>A primary challenge was preventing viewport clipping and layout fragmentation across varying mobile devices during runtime rendering, as unoptimized asset cards often disrupted horizontal scaling parameters.</p>
+                    </div>
+
+                    <div class="case-node">
+                        <h4>⌘ The Resolution</h4>
+                        <p>I debugged this by refactoring the alignment system using flexible box properties and relative scaling variables (vw/vh). This forced elements to compress dynamically, enforcing absolute layout consistency across screen variations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 4. EXPLICIT SKILL DIRECTORY ==================== -->
+    <section id="skills" class="section alt-bg">
+        <h2 class="section-title">⌘ Explicit Skill Directory</h2>
+        <div class="skills-grid">
+            
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>ES6+ JavaScript</span>
+                    <span>TypeScript</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Frameworks & Tools</h3>
+                <div class="skill-tags">
+                    <span>Tailwind CSS</span>
+                    <span>Bootstrap</span>
+                    <span>React</span>
+                    <span>SASS</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Developer Ecosystem</h3>
+                <div class="skill-tags">
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Terminal Execution</span>
+                    <span>Figma Layouts</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== 5. PROFESSIONAL BACKGROUND ==================== -->
+    <section id="about" class="section">
+        <div class="about-container">
+            <h2 class="section-title">⌘ Professional Background</h2>
+            <div class="about-content">
+                <p class="bio-text">
+                    I am a highly driven tech enthusiast exploring the realms of programming and web architecture. My engineering philosophy revolves around coding clean, structured layouts with a constant commitment to iterative learning. Driven by a long-term goal of building my own technological enterprise, I focus on transforming basic web syntax into intuitive interfaces that bridge the gap between architectural precision and modern design aesthetics.
+                </p>
+                <div class="resume-wrapper">
+                    <a href="resume.pdf" download class="btn btn-gold">⌘ Download Curriculum Vitae (PDF)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 6. DIRECT FRICTIONLESS CONTACT ==================== -->
+    <section id="contact" class="section alt-bg">
+        <div class="contact-container">
+            <h2 class="section-title">⌘ Direct Frictionless Contact</h2>
+            <p class="contact-sub">Let's discuss development opportunities, business collaborations, or code reviews.</p>
+            
+            <div class="contact-layout">
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Message logged successfully! ⌘');">
+                    <input type="text" placeholder="Your Professional Name" required>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <textarea placeholder="Your Message or Project Requirements" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-gold full-width">⌘ Send Secure Message</button>
+                </form>
+
+                <div class="network-box">
+                    <h3>Communication Channels</h3>
+                    <a href="mailto:your.email@example.com" class="network-card">
+                        <span class="net-icon">✉</span>
+                        <div>
+                            <strong>Direct Email</strong>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com" target="_blank" class="network-card">
+                        <span class="net-icon">⌘</span>
+                        <div>
+                            <strong>GitHub Dashboard</strong>
+                            <p>://github.com</p>
+                        </div>
+                    </a>
+
+                    <a href="https://linkedin.com" target="_blank" class="network-card">
+                        <span class="net-icon">💼</span>
+                        <div>
+                            <strong>LinkedIn Network</strong>
+                            <p>Connect professionally</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <p>© 2026 Joachim C. Cagas. All Rights Reserved. Engineered via ⌘ Architecture.</p>
+    </footer>
+
+</body>
+  </html>
+  
